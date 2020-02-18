@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Список товаров </h1>   
+
+    {% for div in data %}
+        <p>{{ div.title }}</p>
+        <p>{{ div.link }}</p>
+        <p>{{ div.category }}</p>
+        <hr>
+    {% endfor %}
+</body>
+</html>
