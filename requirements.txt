@@ -6,7 +6,7 @@ bs4==0.0.1
 certifi==2019.11.28
 cffi==1.13.2
 Click==7.0
-cryptography==2.8
+cryptography==3.2
 Flask==1.1.1
 isort==4.3.21
 itsdangerous==1.1.0
